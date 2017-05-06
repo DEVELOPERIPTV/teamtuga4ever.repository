@@ -35,20 +35,20 @@ addonupdate = plugintools.get_setting("updaterepos")
 
 if xbmc.getCondVisibility('system.platform.ios') or xbmc.getCondVisibility('system.platform.osx'):
 	LoginServer = "http://www.projectxwizard/login.php"
-	JarvisOne = "http://projectxwizard.net16.net/JarvisOne.xml"
-	JarvisTwo = "http://projectxwizard.net16.net/JarvisTwo.xml"
-	KryptonOne = "http://projectxwizard.net16.net/KryptonOne.xml"
-	KryptonTwo = "http://projectxwizard.net16.net/KryptonTwo.xml"
-	BetaOne = "http://projectxwizard.net16.net/BetaOne.xml"
-	BetaTwo = "http://projectxwizard.net16.net/BetaTwo.xml"
+	JarvisOne = "https://xprojectx.000webhostapp.com/ProjectXwizard/JarvisOne.xml"
+	JarvisTwo = "https://xprojectx.000webhostapp.com/ProjectXwizard/JarvisTwo.xml"
+	KryptonOne = "https://xprojectx.000webhostapp.com/ProjectXwizard/KryptonOne.xml"
+	KryptonTwo = "https://xprojectx.000webhostapp.com/ProjectXwizard/KryptonTwo.xml"
+	BetaOne = "https://xprojectx.000webhostapp.com/ProjectXwizard/BetaOne.xml"
+	BetaTwo = "https://xprojectx.000webhostapp.com/ProjectXwizard/BetaTwo.xml"
 else:
 	LoginServer = "http://www.projectxwizard/login.php"
-	JarvisOne = "http://projectxwizard.net16.net/JarvisOne.xml"
-	JarvisTwo = "http://projectxwizard.net16.net/JarvisTwo.xml"
-	KryptonOne = "http://projectxwizard.net16.net/KryptonOne.xml"
-	KryptonTwo = "http://projectxwizard.net16.net/KryptonTwo.xml"
-	BetaOne = "http://projectxwizard.net16.net/BetaOne.xml"
-	BetaTwo = "http://projectxwizard.net16.net/BetaTwo.xml"
+	JarvisOne = "https://xprojectx.000webhostapp.com/ProjectXwizard/JarvisOne.xml"
+	JarvisTwo = "https://xprojectx.000webhostapp.com/ProjectXwizard/JarvisTwo.xml"
+	KryptonOne = "https://xprojectx.000webhostapp.com/ProjectXwizard/KryptonOne.xml"
+	KryptonTwo = "https://xprojectx.000webhostapp.com/ProjectXwizard/KryptonTwo.xml"
+	BetaOne = "https://xprojectx.000webhostapp.com/ProjectXwizard/BetaOne.xml"
+	BetaTwo = "https://xprojectx.000webhostapp.com/ProjectXwizard/BetaTwo.xml"
 
 COMP = "http://kodiapps.com/how-to-install-Project X-build-on-kodi"					   
 
